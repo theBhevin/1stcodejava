@@ -1,0 +1,14 @@
+package com.mycompany.sum1;
+import java.util.Scanner;
+ public class Sum1{
+public static void main(String[] args){
+      System.out.println("Enter the Number");
+      Scanner x= new Scanner(System.in);
+      int a = x.nextInt();
+      System.out.println("Enter the Number");
+      Scanner y = new Scanner(System.in);
+      int b = y.nextInt();
+      System.out.println(a+b);
+  }
+ 
+ }
